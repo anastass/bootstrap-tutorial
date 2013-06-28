@@ -12,20 +12,42 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="span3">
+            <header class="row-fluid">
+                <h1 class="span12">
+                    This is my first Bootstrap page.
+                </h1>
+            </header>
+
+            <section class="row-fluid">
+                <aside class="span3">
                     <p>
                         Here is the left column on this web page.
                     </p>
-                </div>
-                <div class="span9">
+                </aside>
+                <article class="span9">
                     <p>
                         Here is the main content area of this web page.
                     </p>
-                </div>
-            </div>
-        </div>
+                </article>
+            </section>
 
+            <section class="container-fluid">
+                <article class="span9">
+                    <p>
+                        Here is another article.
+                    </p>
+                </article>
+                <aside class="span3">
+                    <p>
+                        Here is more information about that article.
+                    </p>
+                </aside>
+            </section>
+
+            <footer class="row-fluid">
+                Copyright and some navigation go here
+            </footer>
+        </div>
 
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script src="js/bootstrap.min.js"></script>
