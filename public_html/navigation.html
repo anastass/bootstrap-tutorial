@@ -14,6 +14,7 @@
         <div class="container-fluid">
             <div class="row-fluid">
                 <nav class="span12">
+                    <!-- Breadcrumbs -->
                     <ul class="breadcrumb">
                         <!-- first li uses icon instead of » -->
                         <li><a href="http://lynda.com/" tytle="lynda.com">lynda.com </a><span class="divider icon-arrow-right"></span> </li>
@@ -23,6 +24,18 @@
                 </nav>
             </div>
         </div>
+
+        <!-- Pagination -->
+        <nav class="pagination pagination-centered">
+            <ul>
+                <!-- Note: First two items look like disabled but actually they are not; use JavaScript to disable them -->
+                <li class="disabled"><a href="#">&lt;&lt;</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">&gt;&gt;</a></li>
+            </ul>
+        </nav>
 
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script src="js/bootstrap.min.js"></script>
