@@ -1,0 +1,7 @@
+body {
+    background-color: #BADA66;
+}
+
+div#image-variations article img { 
+    margin-right: 10px;
+}
