@@ -7,6 +7,6 @@ Files:
 
 - index.html (Bootstrap introduction, different devices)
 - hero-unit.html (Hero unit, lists, images)
-- navigation.html (Breadcrumbs, pagination, pager)
+- navigation.html (Breadcrumbs, pagination, pager, tabs & pills)
 
 Tip: Use [Modernizr](http://modernizr.com/) to make you HTML code backword compatible.
