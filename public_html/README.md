@@ -12,6 +12,11 @@ Files:
 - modal.html (modal window)
 - carousel.html (carousel window)
 
+
+Code based on _Bootstrap: Adding Interactivity to Your Site_ with Jen Kramer (Lynda.com)
+
+- thumbnails.html (Creating a Thumbnail Gallery with Modal Pop-ups)
+
 Tip: 
 - Use [Modernizr](http://modernizr.com/) to make you HTML code backword compatible.
 - Use [Emmet](http://emmet.io/) to reduce typing.
