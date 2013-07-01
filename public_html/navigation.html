@@ -11,10 +11,10 @@
         <![endif]-->
     </head>
     <body>
+        <h2>Breadcrumbs</h2>
         <div class="container-fluid">
             <div class="row-fluid">
                 <nav class="span12">
-                    <!-- Breadcrumbs -->
                     <ul class="breadcrumb">
                         <!-- first li uses icon instead of » -->
                         <li><a href="http://lynda.com/" tytle="lynda.com">lynda.com </a><span class="divider icon-arrow-right"></span> </li>
@@ -25,7 +25,7 @@
             </div>
         </div>
 
-        <!-- Pagination -->
+        <h2>Pagination</h2>
         <nav class="pagination pagination-centered">
             <ul>
                 <!-- Note: First two items look like disabled but actually they are not; use JavaScript to disable them -->
@@ -37,14 +37,15 @@
             </ul>
         </nav>
 
-        <!-- Pager -->
+        <h2>Pager</h2>
         <ul class="pager">
             <!-- Note: Previous looks disabled but actually it is clickable; use JavaScript to disable them -->
             <li class="previous disabled"><a href="#">Previous</a></li>
             <li class="next"><a href="#">Next</a></li>
         </ul>
 
-        <!-- Tabs and pills navigation -->
+        <h2>Tabs and pills navigation</h2>
+        <h4>Tabs</h4>
         <nav>
             <ul class="nav nav-tabs">
                 <li><a href="#">Home</a></li>
@@ -56,7 +57,7 @@
             </ul>
         </nav>
 
-        <!-- stacked -->
+        <h4>Stacked</h4>
         <nav>
             <ul class="nav nav-tabs nav-stacked">
                 <li><a href="#">Home</a></li>
@@ -68,7 +69,7 @@
             </ul>
         </nav>
 
-        <!-- pills -->
+        <h4>Pills</h4>
         <nav>
             <ul class="nav nav-pills">
                 <li><a href="#">Home</a></li>
@@ -80,7 +81,7 @@
             </ul>
         </nav>
 
-        <!-- Bootstrap responsible nav bar -->
+        <h2>Bootstrap responsible nav bar</h2>
         <nav class="navbar navbar-inverse">
             <div class="navbar-inner">
                 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -108,6 +109,24 @@
                     </ul>
                 </div>
             </div>
+        </nav>
+
+        <h2>Add dropdown menu to tabs and pills</h2>
+        <nav>
+            <ul class="nav nav-pills">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">The Artists</a></li>
+                <li class="active"><a href="#">The Art</a></li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Schedule <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Day One</a></li>
+                        <li><a href="#">Day Two</a></li>
+                        <li><a href="#">Day Three</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Venue</a></li>
+                <li><a href="#">Hotels</a></li>
+            </ul>
         </nav>
 
         <script src="http://code.jquery.com/jquery-latest.js"></script>
