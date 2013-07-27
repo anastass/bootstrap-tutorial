@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap forms</title>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="containe">
+            <div class="row">
+                <div class="offset1 span11">
+                    <form action="">
+                        <fieldset>
+                            <legend>Feedback form</legend>
+                            <label>Your name</label>
+                            <input type="text" name="name" placeholder="First and last, please!" class="span4"/>
+
+                            <label>Twitter name</label>
+                            <div class="input-prepend">
+                                <span class="add-on">@</span>
+                                <input type="text" name="twitter" class="span3"/>
+                            </div>
+
+                            <label>Your favorite session you attended was:</label>
+                            <label class="radio"><input type="radio" name="favoritesession" value="html5" />HTML</label>
+                            <label class="radio"><input type="radio" name="favoritesession" value="css3" />CSS3</label>
+                            <label class="radio"><input type="radio" name="favoritesession" value="bootsrap" />Bootstrap</label>
+                            <label class="radio"><input type="radio" name="favoritesession" value="foundation" />Foundation</label>
+
+                            <label>Would you come to this conference again?</label>
+                            <label class="radio inline"><input type="radio" name="comeagain" value="yes" />Yes</label>
+                            <label class="radio inline"><input type="radio" name="comeagain" value="no" />No</label>
+
+                            <label>Your continent</label>
+                            <select name="continent" size="1" class="span4">
+                                <option selected>Select one...</option>
+                                <option value="afr">Africa</option>
+                                <option value="ant">Antarctica</option>
+                                <option value="asia">Asia</option>
+                                <option value="aus">Australia</option>
+                                <option value="eur">Europe</option>
+                                <option value="na">North America</option>
+                                <option value="sa">South America</option>
+                            </select>
+
+                            <label>Comments</label>
+                            <textarea name="comments" class="span4" title="We welcome your feedback!" data-toggle="tooltip" data-placement="right"></textarea>
+
+                            <label class="checkbox">
+                                <input name="subscribe" type="checkbox" value="subscribe" data-toggle="collapse" data-target="#email" />
+                                Subscribe me to the newsletter
+                            </label>
+
+                            <div id="email" class="collapse in">
+                                <label>Your e-mail</label>
+                                <input type="text" name="email" class="span4" />
+                            </div>
+
+                            <p><button type="submit" class="btn btn-warning btn-large">Submit</button></p>
+
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $('textarea').tooltip();
+            $('.collapse').collapse();
+        </script>
+    </body>
+</html>
