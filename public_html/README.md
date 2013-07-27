@@ -10,14 +10,16 @@ Files:
 - navigation.html (Breadcrumbs, pagination, pager, tabs & pills, etc.)
 - tabbing.html (Tabbing with the same page)
 - modal.html (modal window)
-- carousel.html (carousel window)
-- forms.html (creating form with bootsrap)
-- search_box.html (styling search box)
+- carousel.html (carousel window; updated by the course below)
 
 
 Code based on _Bootstrap: Adding Interactivity to Your Site_ with Jen Kramer (Lynda.com)
 
+Files:
+
 - thumbnails.html (Creating a Thumbnail Gallery with Modal Pop-ups)
+- forms.html (creating form with bootsrap)
+- search_box.html (styling search box)
 
 Tip: 
 
